@@ -1,0 +1,52 @@
+#slider {
+    position: relative;
+    display: flex;
+    width: 550px;
+    height: 610px;
+}
+button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 600px;
+}
+#slider img{
+    opacity: 0;
+
+    border-radius: 15px;
+    width: 502px;
+    height: 610px;
+}
+#slider img.primeira-imagem{
+    position: absolute;
+    opacity: 1;
+}
+#slider img.segunda-imagem{
+    width: 438.27px;
+    height: 563.24px;
+
+    top: 23.5px;
+    left: 88px;
+
+    position: absolute;
+    opacity: 1;
+}
+#slider img.terceira-imagem{
+    width: 438px;
+    height: 511px;
+
+    top: 49.5px;
+    left: 112px;
+
+    position: absolute;
+    opacity: 1;
+    flex: none;
+}
+#slider img.imagem-invisivel{
+
+    position: absolute;
+    opacity: 0;
+    flex: none;
+}
+

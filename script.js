@@ -8,14 +8,7 @@ var contador = 0
 
 
 function trocaDeImagem(){
-    contador++
-
-    if(contador >= 5){
-        contador = 0
-    }
-
     
-
     if(contador === 0 ){
         imagem1 = img1
         imagem2 = img2
@@ -52,6 +45,24 @@ function nextImage() {
 
 }
 
-function start() {
-    trocaDeImagem()
+function avancar() {
+
+    if (contador === 4){
+        console.log( "maximo" )
+    }else{contador++
+        trocaDeImagem()
+    }
+    
+}
+
+function retroceder() {
+
+    if (contador === 0){
+
+        console.log( "minimo" )
+
+    }else{contador-- 
+        trocaDeImagem()
+    }
+
 }

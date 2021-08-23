@@ -1,53 +1,63 @@
-#slider {
-    position: relative;
-    display: flex;
-    width: 550px;
-    height: 610px;
+body{
+    background-color: rgb(73, 73, 73);
 }
-button{
+#avancar{
+
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 200px;
-    left: 600px;
+
+    left: 60em;
+    top: 20em;
+
+    width: 50px;
+    height: 50px;
 }
+#retroceder{
+    
+    position: absolute;
+
+    top: 20em;
+
+    width: 50px;
+    height: 50px;
+}
+#slider {
+    width: 60vw;
+    display: flex;
+    height: 100vh;
+}
+
 #slider img{
-    opacity: 0;
 
     border-radius: 15px;
     width: 502px;
     height: 610px;
 }
 #slider img.primeira-imagem{
+
     position: absolute;
-    opacity: 1;
+    top: 1.5em;
+    left: 10em;
+
 }
 #slider img.segunda-imagem{
+
+    position: absolute;
+    top: 3em;
+    left: 20em;
+
     width: 438.27px;
     height: 563.24px;
 
-    top: 23.5px;
-    left: 88px;
-
-    position: absolute;
-    opacity: 1;
 }
 #slider img.terceira-imagem{
+
+    position: absolute;
+    top: 5em;
+    left: 25em;
+
     width: 438px;
     height: 511px;
-
-    top: 49.5px;
-    left: 112px;
-
-    position: absolute;
-    opacity: 1;
-    flex: none;
 }
-#slider img.imagem-invisivel{
 
-    position: absolute;
-    opacity: 0;
-    flex: none;
-}
 
 

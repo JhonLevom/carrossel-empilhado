@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
-    <script type="text/javascript" src="./app.js"></script>
 </head>
 <body>
     <div id="slider">
-        <button id="botao" onclick="start()">  >  </button>
+        <div id="retroceder"><button class="retroceder" onclick="retroceder()"> < </button></div>
         <img class="terceira-imagem"  id= "tras"    src='./img3.webp'/>
         <img class="segunda-imagem"   id="meio"     src='./img2.webp'/>
         <img class="primeira-imagem"  id="frente"   src='./img1.webp'/>
-
+        <div id="avancar"><button class="avancar" onclick="avancar()">  >  </button></div>
    </div>
    <script src="script.js"></script>
 </body>

@@ -1,5 +1,5 @@
 const images = ["./img1.webp", "./img2.webp", "./img3.webp", "./img4.webp", "./img5.webp"]
-
+let tamanhoDoArray = images.length -1
 var contador = 0
 
 
@@ -21,13 +21,11 @@ function nextImage() {
 }
 
 function avancar() {
-
-    if (contador === 4){
+    if (contador === tamanhoDoArray){
         console.log( "maximo" )
     }else{contador++
         trocaDeImagem()
     }
-    
 }
 
 function retroceder() {

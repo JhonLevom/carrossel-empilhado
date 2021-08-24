@@ -1,41 +1,14 @@
-var  img1 =  "./img1.webp"
-var  img2 =  "./img2.webp"
-var  img3 =  "./img3.webp"
-var  img4 =  "./img4.webp"
-var  img5 =  "./img5.webp"
-
-const images = [img1, img2, img3, img4, img5]
+const images = ["./img1.webp", "./img2.webp", "./img3.webp", "./img4.webp", "./img5.webp"]
 
 var contador = 0
 
 
 function trocaDeImagem(){
     
-    if(contador === 0 ){
-        imagem1 = images[0]
-        imagem2 = images[1]
-        imagem3 = images[2]
-    }
-    if(contador === 1){
-        imagem1 = images[1]
-        imagem2 = images[2]
-        imagem3 = images[3]      
-    }
-    if(contador === 2){
-        imagem1 = images[2]
-        imagem2 = images[3] 
-        imagem3 = images[4]         
-    }
-    if(contador === 3){
-        imagem1 = images[3] 
-        imagem2 = images[4] 
-        imagem3 = images[5]        
-    }
-    if(contador === 4){
-        imagem1 = images[4]
-        imagem2 = images[5]
-        imagem3 = images[5]       
-    }
+    imagem1 = images[contador]
+    imagem2 = images[contador+1]
+    imagem3 = images[contador+2]
+
     console.log(contador)
     nextImage()
 }

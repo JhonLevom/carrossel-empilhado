@@ -1,21 +1,22 @@
 body{
     background-color: rgb(73, 73, 73);
 }
-#avancar{
+.avancar{
 
     position: absolute;
 
-    left: 60em;
-    top: 20em;
+    left: 55rem;
+    top: 20rem;
 
     width: 50px;
     height: 50px;
 }
-#retroceder{
+.retroceder{
+    
     
     position: absolute;
 
-    top: 20em;
+    top: 20rem;
 
     width: 50px;
     height: 50px;

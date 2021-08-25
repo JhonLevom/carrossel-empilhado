@@ -1,61 +1,46 @@
 body{
     background-color: rgb(73, 73, 73);
 }
+
 .avancar{
-
     position: absolute;
-
     left: 55rem;
     top: 20rem;
-
     width: 50px;
     height: 50px;
 }
+
 .retroceder{
-    
-    
     position: absolute;
-
     top: 20rem;
-
     width: 50px;
     height: 50px;
 }
-#slider {
-    width: 60vw;
-    display: flex;
-    height: 100vh;
+
+img{
+    border-radius: 25px;
 }
 
-#slider img{
-
-    border-radius: 15px;
-    width: 502px;
-    height: 610px;
-}
-#slider img.primeira-imagem{
-
+.primeira-imagem{
     position: absolute;
     top: 1.5em;
     left: 10em;
-
+    width: 502px;
+    height: 610px;
 }
-#slider img.segunda-imagem{
 
+.segunda-imagem{
     position: absolute;
     top: 3em;
     left: 20em;
-
     width: 438.27px;
     height: 563.24px;
-
 }
-#slider img.terceira-imagem{
 
+.terceira-imagem{
     position: absolute;
     top: 5em;
     left: 25em;
-
     width: 438px;
     height: 511px;
 }
